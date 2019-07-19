@@ -1,0 +1,35 @@
+.statusContainer {
+  width: 100%;
+  background-color: #2d98da;
+  border-radius: 15px;
+  text-align: center;
+  opacity: 0.8;
+  padding: 30px;
+  margin-top: 20px;
+  border-top: 2px solid #cad3c8;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.indicator {
+  font-weight: bold;
+  width: 100%;
+  font-size: 20px;
+  font-family: fantasy;
+  animation: fadeIn 3s ease-in-out;
+}
+
+.mylocation {
+  width: 100%;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  animation: fadeIn 3s ease-in-out;
+}
