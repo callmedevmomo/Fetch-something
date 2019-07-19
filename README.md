@@ -1,6 +1,6 @@
 # Locate Me Ajax
 
-##Challenge:
+## Challenge:
 
 - Call this URL with AJAX, that URL returns information about your location.
 
